@@ -1,0 +1,11 @@
+main {
+  padding: 24px;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-content: center;
+}
+
+.completed {
+  text-decoration: line-through;
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "fileName": "root.server.tsx",
+    "children": ["2", "3"],
+    "root": true
+  },
+  {
+    "id": "2",
+    "fileName": "app.client.tsx",
+    "children": ["4", "5"]
+  },
+  {
+    "id": "3",
+    "fileName": "header.server.tsx",
+    "children": ["6"]
+  },
+  {
+    "id": "4",
+    "fileName": "user.server.tsx",
+    "children": ["7"]
+  },
+  {
+    "id": "5",
+    "fileName": "balance.server.tsx",
+    "children": ["8", "9"]
+  },
+  {
+    "id": "6",
+    "fileName": "user.server.tsx",
+    "children": ["10"]
+  },
+  {
+    "id": "7",
+    "fileName": "balance.client.tsx",
+    "children": []
+  },
+  {
+    "id": "8",
+    "fileName": "operations.server.tsx",
+    "children": []
+  },
+  {
+    "id": "9",
+    "fileName": "overview.client.tsx",
+    "children": []
+  },
+  {
+    "id": "10",
+    "fileName": "overview.client.tsx",
+    "children": ["11"]
+  },
+  {
+    "id": "11",
+    "fileName": "balance.client.tsx",
+    "children": []
+  }
+]

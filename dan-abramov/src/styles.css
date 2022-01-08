@@ -1,0 +1,13 @@
+html,
+body,
+#root {
+  height: 100%;
+  background-color: #151515;
+  color: white;
+  padding: 12px;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
