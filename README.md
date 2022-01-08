@@ -1,4 +1,4 @@
-# Challenges de entrevistas del stream
+# Challenges de entrevistas
 En este repositorio se iran subiendo algunos de los challenges que resolvemos en [el stream](https://twitch.tv/goncypozzo).
 
 ## Entrevistas falsas
@@ -19,6 +19,9 @@ Estos son challenges reales de empresas que podés hacer, mandarle a las empresa
 
 ## Resolución de challenges y más
 Si te gustaría ver el contenido de manera más didáctica, muchos de los challenges están resueltos en [YouTube](https://youtube.goncy.dev) o en [Twitch](https://twitch.tv/goncypozzo).
+
+## Necesitás apoyo?
+Si tenes dudas o queres apoyo, podés unirte al [discord](https://discord.goncy.dev) de la comunidad.
 
 ---
 Si te gusta mi contenido, seguime en [Twitter](https://twitter.gonzalopozzo.com), en [Twitch](https://twitch.gonzalopozzo.com), doname un [Cafecito](https://cafecito.gonzalopozzo.com) o volvete [sponsor en github](https://github.com/sponsors/goncy) ✨
