@@ -6,9 +6,9 @@ Cada caso se vuelve un poco más difícil.
 
 Podés clonarlo o usarlo directamentes desde codesandbox:
 
-* Caso 0: https://github.com/goncy/interview-challenges/tree/main/supermarket-list/case-0
-* Caso 1: https://github.com/goncy/interview-challenges/tree/main/supermarket-list/case-1
-* Caso 2: https://github.com/goncy/interview-challenges/tree/main/supermarket-list/case-2
+* [Caso 0](https://github.com/goncy/interview-challenges/tree/main/supermarket-list/case-0)
+* [Caso 1](https://github.com/goncy/interview-challenges/tree/main/supermarket-list/case-1)
+* [Caso 2](https://github.com/goncy/interview-challenges/tree/main/supermarket-list/case-2)
 
 Estos ejercicios fueron resueltos en vivo en un simulacro de entrevista que podés ver [acá](youtube.com/watch?v=ocwsPB1ysOQ).
 
