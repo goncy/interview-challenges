@@ -11,3 +11,8 @@ Queremos que:
 * No debemos modificar el HTML.
 
 No es necesario que la imágen se vea completa, podemos recortarla en caso de que sea necesario.
+
+[CODESANDBOX](https://codesandbox.io/s/github/goncy/interview-challenges/tree/main/symmetric-masonry)
+
+---
+Si te gusta mi contenido, seguime en [Twitter](https://twitter.gonzalopozzo.com), en [Twitch](https://twitch.gonzalopozzo.com), doname un [Cafecito](https://cafecito.gonzalopozzo.com) o volvete [sponsor en github](https://github.com/sponsors/goncy) ✨
