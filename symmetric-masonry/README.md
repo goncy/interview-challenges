@@ -1,7 +1,7 @@
 # Masonry balanceado
 
 En este caso queremos tener un masonry balanceado, con scroll horizontal, similar a este de acá abajo:
-![01](./screesnhot.jpg)
+![01](./screenshot.jpg)
 
 Queremos que:
 * A Medida de que agreguemos imágenes se vayan creando nuevas columnas (no filas).
