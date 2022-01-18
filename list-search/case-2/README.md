@@ -7,7 +7,7 @@
 - [ ] El search está desfazado y se llama muy frecuentemente.
 
 ## Nivel 3
-- [ ] Agregar un select para ordenar los resultados alfabéticamente o por precio.
+- [ ] Debemos poder agregar y quitar productos a favoritos clickeandolos, los productos en favoritos deben tener la clase "fav".
 
 ## Extra
-- [ ] La query y la preferencia de orden deberían persistirse al recargar la página.
+- [ ] Los favoritos deben persistirse cuando recargamos la página.
