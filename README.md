@@ -18,6 +18,9 @@ Estos son challenges reales de empresas que podés hacer, mandarle a las empresa
 * Blackbox Vision - [CHALLENGE](https://github.com/goncy/blackbox-vision-challenge) - [WEB](https://blackbox-vision.tech/)
 * Coderio - [CHALLENGE](https://github.com/goncy/coderio-challenge) - [WEB](https://coderio.co/)
 
+## Desafíos progresivos
+* Adviency, hagamos la misma aplicación por 24 días - [CHALLENGE](https://twitter.com/goncy/status/1466050967808401409)
+
 ## Resolución de challenges y más
 Si te gustaría ver el contenido de manera más didáctica, muchos de los challenges están resueltos en [YouTube](https://youtube.goncy.dev) o en [Twitch](https://twitch.tv/goncypozzo).
 
