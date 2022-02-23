@@ -18,6 +18,12 @@ Estos son challenges reales de empresas que podés hacer, mandarle a las empresa
 * Blackbox Vision - [CHALLENGE](https://github.com/goncy/blackbox-vision-challenge) - [WEB](https://blackbox-vision.tech/)
 * Coderio - [CHALLENGE](https://github.com/goncy/coderio-challenge) - [WEB](https://coderio.co/)
 
+## Práctica para entrevistas
+* Métodos de array - [STREAM](https://youtu.be/kX1HKn9yk0g) - [REPO](https://github.com/goncy/array-methods)
+* Ejercicios de entrevista algorítmicos 1 - [STREAM](https://youtu.be/BvjGztdb30E)
+* Ejercicios de entrevista algorítmicos 2 - [STREAM](https://youtu.be/aCwW6ATxLZ4)
+* Ejercicios de entrevista algorítmicos 3 - [STREAM](https://youtu.be/lA09l0Q1UDQ)
+
 ## Desafíos progresivos
 * Adviency, hagamos la misma aplicación por 24 días - [CHALLENGE](https://twitter.com/goncy/status/1466050967808401409)
 
