@@ -9,7 +9,6 @@ Podés clonarlo o usarlo directamentes desde [codesandbox](https://codesandbox.i
 ## Entrega 1
 Nuestro equipo de diseño nos dio este proyecto con la UI ya terminada, pero como todavía no habíamos definido que usar para los estilos, hicieron todo con estilos globales. Elegí tu solución de estilos preferida y portá esos estilos. Puede ser la que quieras, algunas como: CSS Modules, SASS + CSS Modules, TailwindCSS, Styled Components, Emotion, ChakraUI, Material UI, etc.
 
-
 ## Entrega 2
 Nuestro equipo de diseño nos dio este proyecto con la UI ya terminada, pero todavía tenemos que implementar la lógica.
 
