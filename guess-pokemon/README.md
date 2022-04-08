@@ -14,7 +14,7 @@ Nuestro cliente nos dio este repositorio listo para trabajar, usa la librería [
 ## Entrega 1
 En esta primera entrega espera que al entrar a la página podamos ver la silueta de un Pokemon de manera aleatoria y al clickear adivinar mostremos la imágen real con el nombre del Pokemon.
 
-Bonus: Mejorar la interfáz de la aplicación para que sea mas linda.
+> Bonus: Mejorar la interfáz de la aplicación para que sea mas linda.
 
 ## Entrega 2
 En esta segunda versión debemos cumplir los siguientes puntos:
