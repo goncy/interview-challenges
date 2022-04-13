@@ -2,9 +2,9 @@
 En este repositorio se iran subiendo algunos de los challenges que resolvemos en [el stream](https://twitch.tv/goncypozzo).
 
 ## Entrevistas falsas
-* [Lista de supermercado](./supermarket-list) - [STREAM](https://www.youtube.com/watch?v=ocwsPB1ysOQ)
-* [Búsqueda de productos](./list-search) - [STREAM](https://www.youtube.com/watch?v=SG5FFwLDuSQ)
-* [Lista de archivos + algoritmos (Dan Abramov)](./dan-abramov) - [STREAM](https://www.youtube.com/watch?v=-w-P4u0x8ig)
+* Lista de supermercado - [CHALLENGE](./supermarket-list) - [STREAM](https://www.youtube.com/watch?v=ocwsPB1ysOQ)
+* Búsqueda de productos - [CHALLENGE](./list-search) - [STREAM](https://www.youtube.com/watch?v=SG5FFwLDuSQ)
+* Lista de archivos + algoritmos (Dan Abramov) - [CHALLENGE](./dan-abramov) - [STREAM](https://www.youtube.com/watch?v=-w-P4u0x8ig)
 
 ## Conseguí trabajo haciendo estos challenges
 Estos son challenges reales de empresas que podés hacer, mandarle a las empresas y aplicar para conseguir un trabajo en ellas. Hacé los challenges y contactalos por el medio que prefieras mandandoles el link a tu repositorio avisandoles que vas por parte de mi stream!
