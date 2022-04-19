@@ -1,4 +1,4 @@
-# Ejercicio de entrevista, tienda NFT
+# Ejercicio de entrevista, Wordle
 
 Podemos encontrar tres carpetas [case-0](./case-0), [case-1](./case-1) y [case-2](./case-2) que contienen diferentes desafíos para una misma aplicación, un buscador de productos.
 
