@@ -1,0 +1,50 @@
+html, body, #root {
+  height: 100%;
+  background-color: #121213;
+  color: white;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.board {
+  padding: 64px;
+  display: grid;
+  place-content: center;
+  gap: 12px;
+}
+
+.word {
+  display: flex;
+  gap: 12px;
+}
+
+.letter {
+  width: 64px;
+  height: 64px;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.present {
+  background-color: #b59f3b;
+}
+
+.correct {
+  background-color: #538d4e;
+}
