@@ -1,13 +1,13 @@
 # Ejercicios de entrevista
 
 ## Nivel 1
-- [ ] No se muestran los productos al cargar la aplicación.
+- [ ] Debería ejecutar la función `handleKeyDown` cada vez que toco una tecla del teclado.
 
 ## Nivel 2
-- [ ] Cuando buscamos no se muestran productos.
+- [ ] Debería agregar la clase `correct` si la letra está en la posición correcta en relación con la respuesta.
 
 ## Nivel 3
-- [ ] Los productos que salen 100 o menos deben tener la clase "sale" activada.
+- [ ] Solo deberia poder pasar a la siguiente palabra si escribí 5 letras.
 
 ## Extra
-- [ ] La aplicación tarda unos segundos hasta mostrar los productos sin mostrar un "cargando...".
+- [ ] Una vez que gané me permite seguir escribiendo.

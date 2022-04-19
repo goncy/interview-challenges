@@ -1,12 +1,22 @@
 import {useCallback, useEffect, useState} from "react";
 
+import api from "./api";
+
 function App() {
-  const answer = "RIGHT";
+  const [answer, setAnswer] = useState<string>("");
+  const [isLoading, toggleLoading] = useState<boolean>(true);
   const [turn, setTurn] = useState<number>(0);
   const [status, setStatus] = useState<"playing" | "finished">("playing");
-  const [words, setWords] = useState<string[][]>(() =>
+  const [words, setWords] = useState<string[][]>(
     Array.from({length: 6}, () => new Array(5).fill("")),
   );
+
+  useEffect(() => {
+    api.word.random().then((answer) => {
+      setAnswer(answer);
+      toggleLoading(false);
+    });
+  }, []);
 
   const handleKeyDown = useCallback(
     (event: KeyboardEvent) => {
@@ -58,14 +68,14 @@ function App() {
         setTurn(0);
       }
     },
-    [status, turn, words],
+    [status, turn, words, answer],
   );
 
   useEffect(() => {
     window.addEventListener("keydown", handleKeyDown);
-
-    return () => window.removeEventListener("keydown", handleKeyDown);
   }, [handleKeyDown]);
+
+  if (isLoading) return "Cargando...";
 
   return (
     <main className="board">

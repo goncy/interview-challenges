@@ -1,30 +1,81 @@
-import type {Product} from "./types";
-
 import {useEffect, useState} from "react";
 
-import api from "./api";
-
 function App() {
-  const [products, setProducts] = useState<Product[]>([]);
-  const [query, setQuery] = useState<string>("");
+  const answer = "RIGHT";
+  const [turn, setTurn] = useState<number>(0);
+  const [status, setStatus] = useState<"playing" | "finished">("playing");
+  const [words, setWords] = useState<string[][]>(() =>
+    Array.from({length: 6}, () => new Array(5).fill("")),
+  );
+
+  const handleKeyDown = (event: KeyboardEvent) => {
+    if (status === "playing") {
+      switch (event.key) {
+        case "Enter": {
+          if (words[turn].some((letter) => letter === "")) {
+            return;
+          }
+
+          if (words[turn].join("") === answer) {
+            setStatus("finished");
+          }
+
+          setTurn((turn) => turn + 1);
+
+          return;
+        }
+        case "Backspace": {
+          let firstEmptyIndex = words[turn].findIndex((letter) => letter === "");
+
+          if (firstEmptyIndex === -1) {
+            firstEmptyIndex = words[turn].length;
+          }
+
+          words[turn][firstEmptyIndex - 1] = "";
+
+          setWords(words.slice());
+
+          return;
+        }
+        default: {
+          if (event.key.length === 1 && event.key.match(/[a-z]/i)) {
+            const firstEmptyIndex = words[turn].findIndex((letter) => letter === "");
+
+            if (firstEmptyIndex === -1) return;
+
+            words[turn][firstEmptyIndex] = event.key.toUpperCase();
+
+            setWords(words.slice());
+
+            return;
+          }
+        }
+      }
+    }
+  };
 
   useEffect(() => {
-    api.search(query).then(setProducts);
-  }, [query]);
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [handleKeyDown]);
 
   return (
-    <main>
-      <h1>Tienda digitaloncy</h1>
-      <input name="text" placeholder="tv" type="text" onChange={(e) => setQuery(e.target.value)} />
-      <ul>
-        {products.map((product) => (
-          <li key={product.id}>
-            <h4>{product.title}</h4>
-            <p>{product.description}</p>
-            <span>$ {product.price}</span>
-          </li>
-        ))}
-      </ul>
+    <main className="board">
+      {words.map((word, wordIndex) => (
+        <section className="word">
+          {word.map((letter, letterIndex) => {
+            const isCorrect = letter && wordIndex < turn && letter === answer[letterIndex];
+            const isPresent = false;
+
+            return (
+              <article className={`letter ${isPresent && "present"} ${isCorrect && "correct"}`}>
+                {letter}
+              </article>
+            );
+          })}
+        </section>
+      ))}
     </main>
   );
 }
