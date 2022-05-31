@@ -4,6 +4,7 @@ En este repositorio se iran subiendo algunos de los challenges que resolvemos en
 ## Entrevistas falsas
 * Lista de supermercado - [CHALLENGE](./supermarket-list) - [STREAM](https://www.youtube.com/watch?v=ocwsPB1ysOQ)
 * Búsqueda de productos - [CHALLENGE](./list-search) - [STREAM](https://www.youtube.com/watch?v=SG5FFwLDuSQ)
+* Wordle - [CHALLENGE](./wordle) - [STREAM](https://www.youtube.com/watch?v=xsZZc9PRqFM)
 * Lista de archivos + algoritmos (Dan Abramov) - [CHALLENGE](./dan-abramov) - [STREAM](https://www.youtube.com/watch?v=-w-P4u0x8ig)
 
 ## Conseguí trabajo haciendo estos challenges

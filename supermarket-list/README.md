@@ -10,7 +10,7 @@ Podés clonarlo o usarlo directamentes desde codesandbox:
 * [Caso 1](https://github.com/goncy/interview-challenges/tree/main/supermarket-list/case-1) - [CODESANDBOX](https://codesandbox.io/s/github/goncy/interview-challenges/tree/main/supermarket-list/case-1)
 * [Caso 2](https://github.com/goncy/interview-challenges/tree/main/supermarket-list/case-2) - [CODESANDBOX](https://codesandbox.io/s/github/goncy/interview-challenges/tree/main/supermarket-list/case-2)
 
-Estos ejercicios fueron resueltos en vivo en un simulacro de entrevista que podés ver [acá](youtube.com/watch?v=ocwsPB1ysOQ).
+Estos ejercicios fueron resueltos en vivo en un simulacro de entrevista que podés ver [acá](https://youtube.com/watch?v=ocwsPB1ysOQ).
 
 ---
 Si te gusta mi contenido, seguime en [Twitter](https://twitter.gonzalopozzo.com), en [Twitch](https://twitch.gonzalopozzo.com), doname un [Cafecito](https://cafecito.gonzalopozzo.com) o volvete [sponsor en github](https://github.com/sponsors/goncy) ✨
