@@ -1,7 +1,7 @@
 # Ejercicios de entrevista
 
 ## Nivel 1
-- [ ] Los recomendados no deberían cambiar cuando cambia la query.
+- [ ] Los recomendados deberían ser aleatorios no deberían cambiar cuando cambia la query.
 
 ## Nivel 2
 - [ ] El search está desfazado y además se llama muy frecuentemente.
