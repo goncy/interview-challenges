@@ -1,4 +1,4 @@
-# Ejercicio de entrevista, algoritmos 4
+# Ejercicio de entrevista, algoritmos 5
 
 Podemos encontrar cuatro carpetas [ceros-al-final](./ceros-al-final), [continentes-representados](./continentes-representados), [palindromos](./palindromos) y [validar-parentesis](./validar-parentesis) que contienen diferentes ejercicios a resolver.
 
