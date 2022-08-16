@@ -1,6 +1,6 @@
 # Ejercicio de entrevista, algoritmos 4
 
-Podemos encontrar cuatro carpetas [isograma](./isograma), [letras por numeros](./letras-por-numeros), [string termina con](./string-termina-con), [elementos pares](./elementos-pares) y [transformador](./transformador) que contienen diferentes ejercicios a resolver.
+Podemos encontrar cinco carpetas [isograma](./isograma), [letras por numeros](./letras-por-numeros), [string termina con](./string-termina-con), [elementos pares](./elementos-pares) y [transformador](./transformador) que contienen diferentes ejercicios a resolver.
 
 Podés clonarlo o usarlo directamentes desde codesandbox:
 
