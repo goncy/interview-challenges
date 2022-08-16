@@ -25,6 +25,7 @@ Estos son challenges reales de empresas que podés hacer, mandarle a las empresa
 * Ejercicios de entrevista algorítmicos 2 - [STREAM](https://youtu.be/aCwW6ATxLZ4)
 * Ejercicios de entrevista algorítmicos 3 - [STREAM](https://youtu.be/lA09l0Q1UDQ)
 * Ejercicios de entrevista algorítmicos 4 - [CHALLENGE](./algorithms-4/) - [STREAM](https://www.youtube.com/watch?v=W20aHH7F1q8)
+* Ejercicios de entrevista algorítmicos 5 - [CHALLENGE](./algorithms-5/)
 
 ## Práctica de challenges
 Cada challenge tiene distintas entregas, completá hasta donde puedas.
