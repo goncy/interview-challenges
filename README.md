@@ -1,7 +1,7 @@
 # Challenges de entrevistas
 En este repositorio se iran subiendo algunos de los challenges que resolvemos en [el stream](https://twitch.tv/goncypozzo).
 
-## Entrevistas falsas
+## Simluacros de entrevista
 * Lista de supermercado - [CHALLENGE](./supermarket-list) - [STREAM](https://www.youtube.com/watch?v=ocwsPB1ysOQ)
 * Búsqueda de productos - [CHALLENGE](./list-search) - [STREAM](https://www.youtube.com/watch?v=SG5FFwLDuSQ)
 * Wordle - [CHALLENGE](./wordle) - [STREAM](https://www.youtube.com/watch?v=xsZZc9PRqFM)
