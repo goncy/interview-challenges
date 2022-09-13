@@ -1,0 +1,110 @@
+/* Layout */
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: whitesmoke;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  max-width: 1250px;
+  min-height: 100vh;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+/* Blocks */
+nav {
+  padding: 12px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Press Start 2P';
+  border: 4px solid black;
+}
+
+header {
+  padding: 16px;
+  border-bottom: 4px solid black;
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+footer {
+  padding: 16px;
+  border-top: 4px solid black;
+  text-align: center;
+  color: gray;
+}
+
+section {
+  padding: 16px;
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 12px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+article > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 100%;
+}
+
+article > div > p:nth-of-type(1) {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+article > div > p:nth-of-type(2) {
+  color: gray;
+}
+
+article > div > button {
+  margin-top: auto;
+}
+
+aside {
+  position: sticky;
+  bottom: 0;
+  margin: auto;
+  padding: 16px;
+}
+
+aside > button {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
