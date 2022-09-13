@@ -4,7 +4,7 @@
   "view": "browser",
   "startScript": "dev",
   "container": {
-    "node": "10",
+    "node": "14",
     "port": 5173
   }
 }
