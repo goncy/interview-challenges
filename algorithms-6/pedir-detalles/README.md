@@ -1,6 +1,6 @@
 # Pedir detalles
 
-Dado un array de objetos representando datos sobre desarrolladores que se anotaron a una meetup, escribir una función que chequee por propiedades en `null` y en caso de encontrar agregar una una propiedad `question` con el valor: `Hi, could you please provide your <property name>`. Solo se deberían devolver los desarrolladores que contienen la propiedad `question`.
+Dado un array de objetos representando datos sobre desarrolladores que se anotaron a una meetup, escribir una función que chequee por propiedades en `null` y en caso de encontrar, agregar una una propiedad `question` con el valor: `Hi, could you please provide your <property name>`. Solo se deberían devolver los desarrolladores que contienen la propiedad `question`.
 
 ```js
 const desarrolladores = [
