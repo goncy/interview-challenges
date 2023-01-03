@@ -1,6 +1,6 @@
 import type { Developer } from "./types";
 
-export default function encontrarAlMasViejo(developers: Developer[]): Record<string, number> {
+export default function encontrarAlMasViejo(developers: Developer[]): Developer[] {
   // TODO: implementar
   return {};
 }
