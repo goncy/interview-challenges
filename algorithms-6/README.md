@@ -1,6 +1,6 @@
 # Ejercicio de entrevista, algoritmos 6
 
-Podemos encontrar cuatro carpetas [contar-los-lenguajes](./contar-los-lenguajes), [encontrar-al-aislado](./encontrar-al-aislado), [encontrar-al-mas-viejo](./encontrar-al-mas-viejo), [pedir-detalles](./pedir-detalles) y [encontrar-la-media](./encontrar-la-media) que contienen diferentes ejercicios a resolver.
+Podemos encontrar cinco carpetas [contar-los-lenguajes](./contar-los-lenguajes), [encontrar-al-aislado](./encontrar-al-aislado), [encontrar-al-mas-viejo](./encontrar-al-mas-viejo), [pedir-detalles](./pedir-detalles) y [encontrar-la-media](./encontrar-la-media) que contienen diferentes ejercicios a resolver.
 
 Podés clonarlo o usarlo directamentes desde codesandbox:
 
