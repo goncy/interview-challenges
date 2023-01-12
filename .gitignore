@@ -1,1 +1,7 @@
 node_modules
+
+# OS generated files
+.DS_Store
+
+# lock files
+pnpm-lock.yaml
