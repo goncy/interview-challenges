@@ -1,6 +1,6 @@
 # Encontrar la media
 
-Dado un array de objetos representando datos sobre desarrolladores que se anotaron a una meetup, escribir una función que encuentre la media de edad entre los inscriptos.
+Dado un array de objetos representando datos sobre desarrolladores que se anotaron a una meetup, escribir una función que encuentre la media de edad entre los inscritos.
 
 ```js
 const desarrolladores = [
