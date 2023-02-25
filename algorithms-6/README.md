@@ -15,7 +15,7 @@ npm install
 Y luego ejecutá los tests del ejercicio que quieras:
 
 ```bash
-npm test ceros-al-final
+npm test encontrar-la-media
 ```
 
 O ejecutá todos los tests juntos:
