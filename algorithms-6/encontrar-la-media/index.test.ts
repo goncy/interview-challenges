@@ -29,7 +29,7 @@ describe("encontrarLaMedia", () => {
     expect(encontrarLaMedia(actual)).toMatchObject(expected);
   });
 
-  it("debería encontrar la media correctamente - 21", () => {
+  it("debería encontrar la media correctamente - 20.5", () => {
     const actual: Developer[] = [
       {
         firstName: "Noa",
@@ -48,7 +48,7 @@ describe("encontrarLaMedia", () => {
         language: "C",
       },
     ];
-    const expected = 21;
+    const expected = 20.5;
 
     expect(encontrarLaMedia(actual)).toMatchObject(expected);
   });
