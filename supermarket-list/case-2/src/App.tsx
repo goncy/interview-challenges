@@ -15,16 +15,27 @@ function App() {
 
   function handleToggle(id: Item["id"]) {
     // Should implement
+    setItems((items) =>
+      items.map((item) => {
+        if (item.id === id) {
+          return {...item, completed: !item.completed};
+        }
+
+        return item;
+      }),
+    );
   }
 
   function handleAdd(event: React.ChangeEvent<Form>) {
     event.preventDefault();
+    const inputValue = event.target.text.value;
 
+    if (!inputValue) return;
     setItems((items) =>
       items.concat({
         id: +new Date(),
         completed: false,
-        text: event.target.text.value,
+        text: inputValue,
       }),
     );
 
