@@ -1,5 +1,5 @@
 {
-  "name": "algorithms-6",
+  "name": "algorithms-7",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,9 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vitest": "^0.26.3"
+    "vitest": "^0.30.1"
   },
   "devDependencies": {
-    "prettier": "^2.8.1"
+    "prettier": "^2.8.7"
   }
 }
