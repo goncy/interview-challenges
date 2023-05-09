@@ -34,6 +34,7 @@ Estos son challenges reales de empresas que podés hacer, mandarle a las empresa
 * Haciendo una tienda con carrito de compras - [CHALLENGE](./simple-cart)
 * Haciendo un juego de adivinar el Pokemon - [CHALLENGE](./guess-pokemon)
 * Haciendo un juego de reflejos - [CHALLENGE](./reflex-game)
+* Haciendo un juego Ta-Te-Ti - [CHALLENGE](./reflex-game)
 
 ## Challenges progresivos
 * Adviency, hagamos la misma aplicación por 24 días - [CHALLENGE](https://twitter.com/goncy/status/1466050967808401409)
