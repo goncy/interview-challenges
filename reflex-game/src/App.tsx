@@ -5,7 +5,7 @@ function App() {
         <h1>{0} segundos</h1>
       </header>
       <section>
-        <div>Juego</div>
+        <figure />
       </section>
       <footer>
         <button>Jugar</button>

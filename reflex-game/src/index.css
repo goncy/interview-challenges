@@ -14,6 +14,12 @@
   -webkit-text-size-adjust: 100%;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   display: flex;
@@ -39,6 +45,14 @@ header, footer {
 h1 {
   font-size: 1.5em;
   line-height: 1.1;
+}
+
+figure {
+  width: 48px;
+  height: 48px;
+  border-radius: 9999px;
+  background-color: white;
+  cursor: pointer;
 }
 
 button {
