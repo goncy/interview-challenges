@@ -31,10 +31,9 @@ Estos son challenges reales de empresas que podés hacer, mandarle a las empresa
 * Ejercicios de entrevista algorítmicos 7 - [CHALLENGE](./algorithms-7/)
 
 ## Práctica de challenges
-Cada challenge tiene distintas entregas, completá hasta donde puedas.
-
 * Haciendo una tienda con carrito de compras - [CHALLENGE](./simple-cart)
 * Haciendo un juego de adivinar el Pokemon - [CHALLENGE](./guess-pokemon)
+* Haciendo un juego de reflejos - [CHALLENGE](./reflex-game)
 
 ## Challenges progresivos
 * Adviency, hagamos la misma aplicación por 24 días - [CHALLENGE](https://twitter.com/goncy/status/1466050967808401409)
