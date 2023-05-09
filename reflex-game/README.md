@@ -10,6 +10,8 @@ Debemos implementar un juego que nos permita medir nuestros reflejos.
 - Implementar un tablero de puntajes más alto.
 - Persistir el tablero al refrescar la página.
 - Ver los resultados de otros jugadores en el tablero.
+- Agregar dificultades (blanco más chico).
+- El blanco debe desaparecer después de N segundos.
 
 Podés clonarlo o usarlo directamentes desde codesandbox:
 
