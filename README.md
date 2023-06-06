@@ -36,6 +36,7 @@ Estos son challenges reales de empresas que podés hacer, mandarle a las empresa
 * Haciendo un juego de reflejos - [CHALLENGE](./reflex-game)
 * Haciendo un juego Ta-Te-Ti - [CHALLENGE](./tic-tac-toe)
 * Haciendo una aplicación para saber cual es el próximo feriado - [CHALLENGE](./next-holiday)
+* Haciendo un juego de colores - [CHALLENGE](./color-game)
 
 ## Challenges progresivos
 * Adviency, hagamos la misma aplicación por 24 días - [CHALLENGE](https://twitter.com/goncy/status/1466050967808401409)
