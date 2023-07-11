@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color-scheme: dark light;
+  background-color: Canvas;
+  color: CanvasText;
+}
