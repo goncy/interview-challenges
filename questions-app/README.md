@@ -20,6 +20,7 @@ Sumado a lo presentado en la entrega 1:
 
 - Deberíamos tener una ruta para cada pregunta que nos muestre solo su contenido y un botón para volver al inicio
 - Al compartir esta ruta en redes sociales, deberiamos mostrar una imágen de open-graph que incluya el texto de la pregunta
+- Deberíamos tener un botón en la ruta de cada pregunta que nos permita copiar una imágen de la pregunta al portapapeles
 
 ## Entrega 3
 Sumado a lo presentado en la entrega 2:
