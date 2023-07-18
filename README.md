@@ -16,12 +16,12 @@ En este repositorio se iran subiendo algunos de los challenges que resolvemos en
     * [Tienda con carrito](./proyectos-live/carrito-tienda)
     * [Grilla simétrica](./proyectos-live/grilla-simetrica)
 3. [Proyectos take-home](./proyectos-take-home): Similares a los que dan para resolver en casa durante procesos de entrevistas frontend.
-    * [Juego de adivinar el Pokemon](./adivinar-pokemon)
-    * [Juego de reflejos](./juego-de-reflejos)
-    * [Ta-Te-Ti](./ta-te-ti)
-    * [Cuando es el próximo feriado?](./proximo-feriado)
-    * [Juego de colores](./juego-de-colores)
-    * [Aplicación de preguntas anónimas](./preguntas-anonimas)
+    * [Juego de adivinar el Pokemon](./proyectos-take-home/adivinar-pokemon)
+    * [Juego de reflejos](./proyectos-take-home/juego-de-reflejos)
+    * [Ta-Te-Ti](./proyectos-take-home/ta-te-ti)
+    * [Cuando es el próximo feriado?](./proyectos-take-home/proximo-feriado)
+    * [Juego de colores](./proyectos-take-home/juego-de-colores)
+    * [Aplicación de preguntas anónimas](./proyectos-take-home/preguntas-anonimas)
 3. Challenges reales de empresas: Estos challenges fueron hechos en conjunto con las empresas para evaluar candidatos en posiciones abiertas.
     * [Basement](https://github.com/goncy/basement-challenge) - [WEB](https://basement.studio/)
     * [Aerolab](https://github.com/goncy/aerolab-challenge) - [WEB](https://aerolab.co/)
