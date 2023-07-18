@@ -1,50 +1,43 @@
 # Challenges de entrevistas
-En este repositorio se iran subiendo algunos de los challenges que resolvemos en [el stream](https://twitch.tv/goncypozzo).
+En este repositorio se iran subiendo algunos de los challenges que resolvemos en [el stream](https://twitch.tv/goncypozzo). La mayoría de los ejercicios están ya configurados para usar con JavaScript, TypeScript o React pero sientente libre de copiar la consigna y resolverlo con tus tecnologías preferidas.
 
-## Simluacros de entrevista
-* Lista de supermercado - [CHALLENGE](./supermarket-list) - [STREAM](https://www.youtube.com/watch?v=ocwsPB1ysOQ)
-* Búsqueda de productos - [CHALLENGE](./list-search) - [STREAM](https://www.youtube.com/watch?v=SG5FFwLDuSQ)
-* Wordle - [CHALLENGE](./wordle) - [STREAM](https://www.youtube.com/watch?v=xsZZc9PRqFM)
-* Tienda Pokemon - [CHALLENGE](./poke-store)
-* Lista de archivos + algoritmos (Dan Abramov) - [CHALLENGE](./dan-abramov) - [STREAM](https://www.youtube.com/watch?v=-w-P4u0x8ig)
+## Índice
+1. [Ejercicios de algorítmos](./ejercicios-algoritmos/): Similares a los que toman en entrevistas de live-coding, tanto para posiciones frontend como backend.
+    * [Sesión 1](./ejercicios-algoritmos/sesion-1/) - [STREAM](https://www.youtube.com/watch?v=W20aHH7F1q8)
+    * [Sesión 2](./ejercicios-algoritmos/sesion-2/) - [STREAM](https://youtu.be/Mu9kdqCna90)
+    * [Sesión 3](./ejercicios-algoritmos/sesion-3/) - [STREAM](https://www.youtube.com/watch?v=EdqCkmJsmi4)
+    * [Sesión 4](./ejercicios-algoritmos/sesion-4/) - [STREAM](https://youtu.be/LW681EfHZFc)
+2. [Proyectos live](./proyectos-live): Similares a los que toman en entrevistas técnicas para posiciones de front-end, donde hay que resolver errors o implementar nuevas funcionalidades.
+    * [Búsqueda de productos](./proyectos-live/buscador-de-lista) - [STREAM](https://www.youtube.com/watch?v=SG5FFwLDuSQ)
+    * [Lista de supermercado](./proyectos-live/lista-supermercado) - [STREAM](https://www.youtube.com/watch?v=ocwsPB1ysOQ)
+    * [Wordle](./proyectos-live/wordle) - [STREAM](https://www.youtube.com/watch?v=xsZZc9PRqFM)
+    * [Tienda Pokemon](./proyectos-live/tienda-pokemon) - [STREAM](https://www.youtube.com/watch?v=FGiAy0GUrDI)
+    * [Lista de archivos + algoritmos (Dan Abramov)](./proyectos-live/dan-abramov) - [STREAM](https://www.youtube.com/watch?v=-w-P4u0x8ig)
+    * [Tienda con carrito](./proyectos-live/carrito-tienda)
+    * [Grilla simétrica](./proyectos-live/grilla-simetrica)
+3. [Proyectos take-home](./proyectos-take-home): Similares a los que dan para resolver en casa durante procesos de entrevistas frontend.
+    * [Juego de adivinar el Pokemon](./adivinar-pokemon)
+    * [Juego de reflejos](./juego-de-reflejos)
+    * [Ta-Te-Ti](./ta-te-ti)
+    * [Cuando es el próximo feriado?](./proximo-feriado)
+    * [Juego de colores](./juego-de-colores)
+    * [Aplicación de preguntas anónimas](./preguntas-anonimas)
+3. Challenges reales de empresas: Estos challenges fueron hechos en conjunto con las empresas para evaluar candidatos en posiciones abiertas.
+    * [Basement](https://github.com/goncy/basement-challenge) - [WEB](https://basement.studio/)
+    * [Aerolab](https://github.com/goncy/aerolab-challenge) - [WEB](https://aerolab.co/)
+    * [Kopius](https://github.com/goncy/tradehelm-challenge) - [WEB](https://kopiustech.com/)
+    * [Cognizant Softvision](https://github.com/goncy/cognizant-softvision-challenge) - [WEB](https://www.cognizantsoftvision.com/)
+    * [Innovid](https://github.com/goncy/innovid-challenge) - [WEB](https://www.innovid.com/)
+    * [Realtrends](https://github.com/goncy/realtrends-challenge) - [WEB](https://www.real-trends.com/)
+    * [Blackbox Vision](https://github.com/goncy/blackbox-vision-challenge) - [WEB](https://blackbox-vision.tech/)
+    * [Coderio](https://github.com/goncy/coderio-challenge) - [WEB](https://coderio.co/)
+4. Challenges progresivos: Realiza uno de estos ejercicios por día para ganar constancia mientras practicas.
+    * [Adviency, hagamos la misma aplicación por 24 días](https://twitter.com/goncy/status/1466050967808401409)
 
-## Conseguí trabajo haciendo estos challenges
-Estos son challenges reales de empresas que podés hacer, mandarle a las empresas y aplicar para conseguir un trabajo en ellas. Hacé los challenges y contactalos por el medio que prefieras mandandoles el link a tu repositorio avisandoles que vas por parte de mi stream!
-
-* Basement - [CHALLENGE](https://github.com/goncy/basement-challenge) - [WEB](https://basement.studio/)
-* Aerolab - [CHALLENGE](https://github.com/goncy/aerolab-challenge) - [WEB](https://aerolab.co/)
-* Majorkey - [CHALLENGE](https://github.com/goncy/tradehelm-challenge) - [WEB](https://www.majorkeytech.com/)
-* Cognizant Softvision - [CHALLENGE](https://github.com/goncy/cognizant-softvision-challenge) - [WEB](https://www.cognizantsoftvision.com/)
-* Innovid - [CHALLENGE](https://github.com/goncy/innovid-challenge) - [WEB](https://www.innovid.com/)
-* Realtrends - [CHALLENGE](https://github.com/goncy/realtrends-challenge) - [WEB](https://www.real-trends.com/)
-* Blackbox Vision - [CHALLENGE](https://github.com/goncy/blackbox-vision-challenge) - [WEB](https://blackbox-vision.tech/)
-* Coderio - [CHALLENGE](https://github.com/goncy/coderio-challenge) - [WEB](https://coderio.co/)
-
-## Práctica para entrevistas
-* Métodos de array - [CHALLENGE](https://github.com/goncy/array-methods) - [STREAM](https://youtu.be/kX1HKn9yk0g)
-* Ejercicios de entrevista algorítmicos 1 - [STREAM](https://youtu.be/BvjGztdb30E)
-* Ejercicios de entrevista algorítmicos 2 - [STREAM](https://youtu.be/aCwW6ATxLZ4)
-* Ejercicios de entrevista algorítmicos 3 - [STREAM](https://youtu.be/lA09l0Q1UDQ)
-* Ejercicios de entrevista algorítmicos 4 - [CHALLENGE](./algorithms-4/) - [STREAM](https://www.youtube.com/watch?v=W20aHH7F1q8)
-* Ejercicios de entrevista algorítmicos 5 - [CHALLENGE](./algorithms-5/) - [STREAM](https://youtu.be/Mu9kdqCna90)
-* Ejercicios de entrevista algorítmicos 6 - [CHALLENGE](./algorithms-6/) - [STREAM](https://www.youtube.com/watch?v=EdqCkmJsmi4)
-* Ejercicios de entrevista algorítmicos 7 - [CHALLENGE](./algorithms-7/)
-
-## Práctica de challenges
-* Haciendo una tienda con carrito de compras - [CHALLENGE](./simple-cart)
-* Haciendo un juego de adivinar el Pokemon - [CHALLENGE](./guess-pokemon)
-* Haciendo un juego de reflejos - [CHALLENGE](./reflex-game)
-* Haciendo un juego Ta-Te-Ti - [CHALLENGE](./tic-tac-toe)
-* Haciendo una aplicación para saber cual es el próximo feriado - [CHALLENGE](./next-holiday)
-* Haciendo un juego de colores - [CHALLENGE](./color-game)
-
-## Challenges progresivos
-* Adviency, hagamos la misma aplicación por 24 días - [CHALLENGE](https://twitter.com/goncy/status/1466050967808401409)
-
-## Resolución de challenges y más
+### Resolución de challenges y más
 Si te gustaría ver el contenido de manera más didáctica, muchos de los challenges están resueltos en [YouTube](https://youtube.goncy.dev) o en [Twitch](https://twitch.tv/goncypozzo).
 
-## Necesitás apoyo?
+### Necesitás apoyo?
 Si tenes dudas o queres apoyo, podés unirte al [discord](https://discord.goncy.dev) de la comunidad.
 
 ---
