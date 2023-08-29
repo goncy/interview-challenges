@@ -12,6 +12,7 @@ Mucha suerte en el camino!
 * [Cuando es el próximo feriado?](./proximo-feriado)
 * [Juego de colores](./juego-de-colores)
 * [Aplicación de preguntas anónimas](./preguntas-anonimas)
+* [Dolar Kombat](./dolar-kombat)
 
 ## Necesitás ayuda?
 Si tenes dudas o necesitás ayuda, podés unirte al [discord](https://discord.goncy.dev) de la comunidad.
