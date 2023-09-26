@@ -8,5 +8,6 @@ Implementa una función que reciba un listado de Pokémon y devuelva el índice 
 
 ```js
 ['abra', 'pikachu', 'psyduck', 'psyduck', 'blastoise', 'blastoise', 'blastoise', 'charmander'] => 5
+
 ['pikachu', 'pikachu', 'pikachu', 'psyduck', 'blastoise'] => 1
 ```
