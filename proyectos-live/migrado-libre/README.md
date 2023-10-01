@@ -23,3 +23,6 @@ Su hijo Ángel, que es programador, le ha dicho que Mercado Libre tiene una API 
 ## Ejemplo
 [![Ejemplo](./assets/mock.png)](./assets/mock.png)
 > Nota: El diseño es libre, pero debería ser responsive. Dado el tiempo disponible para el ejercicio, no es necesario que sea muy complejo.
+
+## Disclaimer
+Esta es una prueba que le tomamos a [Midudev](https://twitter.com/midudev) [en vivo](https://youtu.be/nFJ3Q1YW49M). Esta prueba está en el límite entre un proyecto live y un proyecto take home. Así que si no lo podés resolver en un par de horas, no te preocupes, es normal 🙂
