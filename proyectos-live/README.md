@@ -13,6 +13,8 @@ Mucha suerte en el camino!
 * [Lista de archivos + algoritmos (Dan Abramov)](./dan-abramov) - [STREAM](https://www.youtube.com/watch?v=-w-P4u0x8ig)
 * [Tienda con carrito](./carrito-tienda)
 * [Grilla simétrica](./grilla-simetrica)
+* [Migrado Libre](./migrado-libre)
+* [Booscaminas](./booscaminas)
 
 ## Necesitás ayuda?
 Si tenes dudas o necesitás ayuda, podés unirte al [discord](https://discord.goncy.dev) de la comunidad.

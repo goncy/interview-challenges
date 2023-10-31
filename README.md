@@ -15,6 +15,7 @@ En este repositorio se iran subiendo algunos de los challenges que resolvemos en
     * [Tienda Pokemon](./proyectos-live/tienda-pokemon) - [STREAM](https://www.youtube.com/watch?v=FGiAy0GUrDI)
     * [Migrado Libre (Midudev)](./proyectos-live/migrado-libre) - [STREAM](https://youtu.be/nFJ3Q1YW49M)
     * [Lista de archivos + algoritmos (Dan Abramov)](./proyectos-live/dan-abramov) - [STREAM](https://www.youtube.com/watch?v=-w-P4u0x8ig)
+    * [Booscaminas](./proyectos-live/booscaminas)
     * [Tienda con carrito](./proyectos-live/carrito-tienda)
     * [Grilla simétrica](./proyectos-live/grilla-simetrica)
 * [Proyectos take-home](./proyectos-take-home): Similares a los que dan para resolver en casa durante procesos de entrevistas frontend.
