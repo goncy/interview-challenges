@@ -4,7 +4,7 @@ Podemos encontrar cinco carpetas [contar-los-lenguajes](./contar-los-lenguajes),
 
 Podés clonarlo o usarlo directamentes desde codesandbox:
 
-Podés clonarlo o usarlo directamentes desde [CodeSandbox](https://codesandbox.io/s/github/goncy/interview-challenges/tree/main/algoritmos/sesion-4):
+Podés clonarlo o usarlo directamentes desde [CodeSandbox](https://codesandbox.io/p/sandbox/github/goncy/interview-challenges/tree/main/ejercicios-algoritmos/sesion-4):
 
 Para correr los tests primero instalá las dependencias:
 
