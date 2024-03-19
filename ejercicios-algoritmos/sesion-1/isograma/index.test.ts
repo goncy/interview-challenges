@@ -4,7 +4,7 @@ import esIsograma from ".";
 
 describe("esIsograma", () => {
   it("debería devolver true si es un isograma", () => {
-    expect(esIsograma("gato")).toBe(false);
+    expect(esIsograma("gato")).toBe(true);
   });
 
   it("debería ignorar acentos", () => {

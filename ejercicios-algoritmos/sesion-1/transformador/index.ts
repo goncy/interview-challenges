@@ -4,9 +4,9 @@ type Input = {
 };
 
 type Output = {
-  id: string;
+  id: number;
   nombre: string;
-  edad: string;
+  edad: number;
 };
 
 export default function transformador(input: Input): Output[] {

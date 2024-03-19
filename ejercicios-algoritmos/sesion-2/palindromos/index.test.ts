@@ -9,6 +9,7 @@ describe("posiblePalindromo", () => {
     expect(posiblePalindromo(1331)).toBe(true);
     expect(posiblePalindromo(3357665)).toBe(true);
     expect(posiblePalindromo(1221333)).toBe(true);
+    expect(posiblePalindromo(5)).toBe(true);
   });
 
   it("debería devolver false si no es un posible palindromo", () => {

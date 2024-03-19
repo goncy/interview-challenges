@@ -10,7 +10,7 @@ Ejemplo:
 54322345
 ```
 
-Escribir una función que verifique si un números puede ser reordenado para formar un palíndromo.
+Escribir una función que verifique si un número puede ser reordenado para formar un palíndromo.
 
 Nota: Los valores siempre serán numéricos y positivos.
 
