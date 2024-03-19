@@ -8,4 +8,5 @@ describe("urinalesLibres", () => {
   it("00000 => 3", () => expect(urinalesLibres("00000")).toBe(3));
   it("000 => 2", () => expect(urinalesLibres("000")).toBe(2));
   it("01000 => 1", () => expect(urinalesLibres("01000")).toBe(1));
+  it("011 => -1", () => expect(urinalesLibres("011")).toBe(-1));
 });
