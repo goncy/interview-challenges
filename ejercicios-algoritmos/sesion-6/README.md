@@ -1,6 +1,6 @@
 # Práctica de algoritmos - Sesión 6
 
-Podemos encontrar 6 carpetas [es-una-letra](./es-una-letra), [las-moscas-comedoras](./las-moscas-comedoras), [manifestantes-chocadores](./manifestantes-chocadores), [queja-justa](./queja-justa) y [palabrador](./palabrador) que contienen diferentes ejercicios a resolver.
+Podemos encontrar 6 carpetas [es-letra](./es-letra), [las-moscas-comedoras](./las-moscas-comedoras), [manifestantes-chocadores](./manifestantes-chocadores), [queja-justa](./queja-justa) y [palabrador](./palabrador) que contienen diferentes ejercicios a resolver.
 
 Podés clonarlo o usarlo directamentes desde codesandbox:
 
