@@ -5,8 +5,8 @@ En este repositorio se iran subiendo algunos de los challenges que resolvemos en
 * [Ejercicios de algorítmos](./ejercicios-algoritmos/): Similares a los que toman en entrevistas de live-coding, tanto para posiciones frontend como backend.
     * [Sesión 1](./ejercicios-algoritmos/sesion-1/) - [STREAM](https://www.youtube.com/watch?v=W20aHH7F1q8)
     * [Sesión 2](./ejercicios-algoritmos/sesion-2/) - [STREAM](https://youtu.be/Mu9kdqCna90)
-    * [Sesión 3](./ejercicios-algoritmos/sesion-3/) - [STREAM](https://www.youtube.com/watch?v=EdqCkmJsmi4)
-    * [Sesión 4](./ejercicios-algoritmos/sesion-4/) - [STREAM](https://youtu.be/LW681EfHZFc)
+    * [Sesión 3](./ejercicios-algoritmos/sesion-3/) - [STREAM](https://youtu.be/LW681EfHZFc)
+    * [Sesión 4](./ejercicios-algoritmos/sesion-4/) - [STREAM](https://www.youtube.com/watch?v=EdqCkmJsmi4)
     * [Sesión 5](./ejercicios-algoritmos/sesion-5/) - [STREAM](https://youtu.be/dnQfXgGR06o)
     * [Sesión 5](./ejercicios-algoritmos/sesion-6/)
 * [Proyectos live](./proyectos-live): Similares a los que toman en entrevistas técnicas para posiciones de front-end, donde hay que resolver errors o implementar nuevas funcionalidades.
