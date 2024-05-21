@@ -15,6 +15,7 @@ Mucha suerte en el camino!
 * [Grilla simétrica](./grilla-simetrica)
 * [Migrado Libre](./migrado-libre)
 * [Booscaminas](./booscaminas)
+* [Prompter streaming](./prompter-streaming)
 
 ## Necesitás ayuda?
 Si tenes dudas o necesitás ayuda, podés unirte al [discord](https://discord.goncy.dev) de la comunidad.
