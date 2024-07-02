@@ -28,6 +28,7 @@ En este repositorio se iran subiendo algunos de los challenges que resolvemos en
     * [Juego de colores](./proyectos-take-home/juego-de-colores)
     * [Aplicación de preguntas anónimas](./proyectos-take-home/preguntas-anonimas)
     * [Dolar Kombat](./proyectos-take-home/dolar-kombat)
+    * [EntrevistAIdor](./proyectos-take-home/entrevistaidor)
 * Challenges reales de empresas: Estos challenges fueron hechos en conjunto con las empresas para evaluar candidatos en posiciones abiertas.
     * [Basement](https://github.com/goncy/basement-challenge) - [WEB](https://basement.studio/)
     * [Aerolab](https://github.com/goncy/aerolab-challenge) - [WEB](https://aerolab.co/)

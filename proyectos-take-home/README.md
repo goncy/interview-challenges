@@ -13,6 +13,7 @@ Mucha suerte en el camino!
 * [Juego de colores](./juego-de-colores)
 * [Aplicación de preguntas anónimas](./preguntas-anonimas)
 * [Dolar Kombat](./dolar-kombat)
+* [EntrevistAIdor](./entrevistaidor)
 
 ## Necesitás ayuda?
 Si tenes dudas o necesitás ayuda, podés unirte al [discord](https://discord.goncy.dev) de la comunidad.

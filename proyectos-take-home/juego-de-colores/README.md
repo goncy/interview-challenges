@@ -4,7 +4,7 @@ Debemos implementar un juego en el que debemos clickear el color que diga la pal
 [ref](./public/ref.png)
 > Deberíamos clickear el botón azul
 
-### Requisitos
+## Requisitos
 - Ver un botón de "Jugar" el cual el usuario debe clickear para poder empezar.
 - Un contador en segundos que indique el tiempo transcurrido desde que se empezó a jugar.
 - Al llegar a 10 el tiempo debe detenerse y mostrar un botón de "Reiniciar" para permitirle al usuario volver a jugar.

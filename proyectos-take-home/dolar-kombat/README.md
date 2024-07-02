@@ -6,7 +6,7 @@ El peso Argentino pelea día a día con el USD y que mejor manera de verlo repre
 
 El proyecto ya viene configurado con las imágenes necesarias y tiene algunos estilos en linea, usa las librerías y herramientas que creas necesarias.
 
-### Requisitos
+## Requisitos
 - Poder ver la imágen del USD al nivel correcto de la torre basado en su valor.
 
 ## Extras

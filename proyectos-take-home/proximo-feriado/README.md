@@ -1,7 +1,7 @@
 # Próximo feriado
 Debemos implementar una web que nos diga cuanto falta para el próximo feriado.
 
-### Requisitos
+## Requisitos
 - Debe mostrar la cantidad de días que faltan para el próximo feriado.
 
 ## Extras
