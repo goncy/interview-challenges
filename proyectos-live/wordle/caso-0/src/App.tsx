@@ -56,18 +56,13 @@ function App() {
       {words.map((word, wordIndex) => (
         <section className="word">
           {word.map((letter, letterIndex) => {
-            const isCorrect = false;
             const isPresent =
               letter &&
               wordIndex < turn &&
               letter !== answer[letterIndex] &&
               answer.includes(letter);
 
-            return (
-              <article className={`letter ${isPresent && "present"} ${isCorrect && "correct"}`}>
-                {letter}
-              </article>
-            );
+            return <article className={`letter ${isPresent && "present"}`}>{letter}</article>;
           })}
         </section>
       ))}

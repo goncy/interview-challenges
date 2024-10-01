@@ -1,7 +1,7 @@
 # Ejercicios de entrevista
 
 ## Nivel 1
-- [ ] Debería ejecutar la función `handleKeyDown` cada vez que toco una tecla del teclado.
+- [ ] Cuando escribo no veo las letras en pantalla.
 
 ## Nivel 2
 - [ ] Debería agregar la clase `correct` si la letra está en la posición correcta en relación con la respuesta.
@@ -10,4 +10,4 @@
 - [ ] Solo deberia poder pasar a la siguiente palabra si escribí 5 letras.
 
 ## Extra
-- [ ] Una vez que gané me permite seguir escribiendo.
+- [ ] Una vez que gané no me debería permitir seguir escribiendo.
