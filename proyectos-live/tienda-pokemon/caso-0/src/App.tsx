@@ -5,6 +5,7 @@ import {Pokemon} from "./types";
 
 function App() {
   const [pokemons, setPokemons] = useState<Pokemon[]>([]);
+  const [cart, setCart] = useState<Pokemon[]>([]);
 
   useEffect(() => {
     api.list().then(setPokemons);
@@ -20,7 +21,9 @@ function App() {
               <p>{pokemon.name}</p>
               <p>{pokemon.description}</p>
             </div>
-            <button className="nes-btn">Agregar</button>
+            <button className="nes-btn" onClick={() => setCart(cart.concat(pokemon))}>
+              Agregar
+            </button>
           </article>
         ))}
       </section>
