@@ -38,6 +38,7 @@ En este repositorio se iran subiendo algunos de los challenges que resolvemos en
     * [Realtrends](https://github.com/goncy/realtrends-challenge) - [WEB](https://www.real-trends.com/)
     * [Blackbox Vision](https://github.com/goncy/blackbox-vision-challenge) - [WEB](https://blackbox-vision.tech/)
     * [Coderio](https://github.com/goncy/coderio-challenge) - [WEB](https://coderio.co/)
+    * [Wallbit](https://github.com/goncy/wallbit-challenge) - [WEB](https://wallbit.io/)
 * Challenges progresivos: Realiza uno de estos ejercicios por día para ganar constancia mientras practicas.
     * [Adviency, hagamos la misma aplicación por 24 días](https://twitter.com/goncy/status/1466050967808401409)
 
