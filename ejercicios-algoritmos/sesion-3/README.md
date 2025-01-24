@@ -2,7 +2,7 @@
 
 Podemos encontrar cinco carpetas [encontrar-al-hacker](./encontrar-al-hacker), [girar-sarbalap](./girar-sarbalap), [marquesina](./marquesina), [ordenar-emociones](./ordenar-emociones) y [contar-duplicados](./contar-duplicados) que contienen diferentes ejercicios a resolver.
 
-Podés clonarlo o usarlo directamentes desde [CodeSandbox](https://codesandbox.io/s/github/goncy/interview-challenges/tree/main/algoritmos/sesion-4):
+Podés clonarlo o usarlo directamentes desde [CodeSandbox](https://codesandbox.io/p/sandbox/github/goncy/interview-challenges/tree/main/ejercicios-algoritmos/sesion-3):
 
 Para correr los tests primero instalá las dependencias:
 
