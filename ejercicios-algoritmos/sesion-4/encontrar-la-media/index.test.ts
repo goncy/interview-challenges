@@ -26,6 +26,6 @@ describe("encontrarLaMedia", () => {
     ];
     const expected = 50;
 
-    expect(encontrarLaMedia(actual)).toMatchObject(expected);
+    expect(encontrarLaMedia(actual)).toBe(expected);
   });
 });
