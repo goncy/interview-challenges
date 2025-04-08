@@ -18,8 +18,8 @@ Ejemplo:
 
 ```
 5        =>  true
-2121     =>  true
+2121     =>  false
 1331     =>  true
-3357665  =>  true
+3357665  =>  false
 1294     =>  false
 ```
