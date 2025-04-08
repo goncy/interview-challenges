@@ -23,7 +23,7 @@ Devuelve:
 
 ```js
 [
-  { id: "1", nombre: "Bruno", edad: 20 },
-  { id: "2", nombre: "Andrea", edad: 19 },
+  { id: 1, nombre: "Bruno", edad: 20 },
+  { id: 2, nombre: "Andrea", edad: 19 },
 ];
 ```
