@@ -11,7 +11,7 @@ Ejemplos:
 
 ```js
 func("Murciélago"); // returns true
-func("reto"); // returns false
+func("reto"); // returns true
 func("Casa"); // returns false
 func("PeRrO"); // returns false
 func("GaTo"); // returns true
