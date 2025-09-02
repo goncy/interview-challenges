@@ -20,14 +20,3 @@ const sudokuValido = [
 
 verificarSudoku(sudokuValido); // true
 ```
-
-## Explicación didáctica
-
-Este ejercicio te permite practicar:
-- **Matrices bidimensionales**: Trabajar con arrays de arrays
-- **Sets en JavaScript/TypeScript**: Usar `new Set()` para detectar duplicados fácilmente
-- **Bucles anidados**: Iterar filas, columnas y subcuadrados
-- **Modularización**: Separar la lógica en funciones más pequeñas
-- **Validación de datos**: Verificar que todos los elementos sean números del 1 al 9
-
-Una estrategia eficiente es usar `Set` para cada validación, ya que automáticamente elimina duplicados.

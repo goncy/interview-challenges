@@ -12,17 +12,3 @@ conteoCaracteres("Hello World!");
 conteoCaracteres("");
 // {}
 ```
-
-## Explicación didáctica
-
-Este ejercicio es perfecto para aprender:
-- **Objetos como contadores**: Usar objetos para trackear frecuencias
-- **Iteración de strings**: Recorrer cada carácter de un string
-- **Propiedades dinámicas**: Crear y modificar propiedades de objetos en runtime
-- **Operador nullish**: Usar `??` o `||` para valores por defecto
-- **Métodos modernos**: `Object.entries()`, `Object.keys()`, `Object.values()`
-
-**Enfoques modernos**:
-- Usar `Map` en lugar de objetos para mejor performance
-- Usar `string.split('')` o `Array.from(string)` para iterar
-- Aprovechar la sintaxis `obj[key] = (obj[key] ?? 0) + 1`
