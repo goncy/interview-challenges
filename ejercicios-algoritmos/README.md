@@ -15,6 +15,8 @@ Mucha suerte en el camino!
 * [Sesión 3](./sesion-3/) - [STREAM](https://www.youtube.com/watch?v=EdqCkmJsmi4)
 * [Sesión 4](./sesion-4/) - [STREAM](https://youtu.be/LW681EfHZFc)
 * [Sesión 5](./sesion-5/) - [STREAM](https://youtu.be/dnQfXgGR06o)
+* [Sesión 6](./sesion-6/)
+* [Sesión 7](./sesion-7/)
 
 ## Streams afínes
 También puedes ver estos streams donde resolvimos ejercicios de algorítmos directamente en la plataforma de [CodeWars](https://codewars.com).
