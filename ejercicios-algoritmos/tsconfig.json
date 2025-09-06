@@ -1,7 +1,14 @@
 {
   "compilerOptions": {
-    "lib": ["esnext"]
+    "lib": [
+      "esnext"
+    ],
+    "downlevelIteration": true
   },
-  "includes": ["**/*.ts"],
-  "exclude": ["node_modules"]
+  "includes": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
