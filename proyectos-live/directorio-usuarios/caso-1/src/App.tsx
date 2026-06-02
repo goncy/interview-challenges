@@ -5,24 +5,33 @@ import {User} from "./types";
 
 function App() {
   const [users, setUsers] = useState<User[]>([]);
-  const [query, setQuery] = useState("");
-  const matches = users.filter((user) => user.name.includes(query));
 
   useEffect(() => {
     api.list().then(setUsers);
   }, []);
 
+  function handleSubmit(event: React.SubmitEvent<HTMLFormElement>) {
+    const form = event.currentTarget;
+    const name = (form.elements.namedItem("name") as HTMLInputElement).value;
+    const email = (form.elements.namedItem("email") as HTMLInputElement).value;
+
+    setUsers((users) =>
+      users.concat({id: Date.now(), name, email, role: "viewer", active: true}),
+    );
+
+    form.reset();
+  }
 
   return (
     <main>
       <h1>Directorio de usuarios</h1>
-      <input
-        placeholder="Buscar por nombre"
-        value={query}
-        onChange={(event) => setQuery(event.target.value)}
-      />
+      <form onSubmit={handleSubmit}>
+        <input name="name" placeholder="Nombre" />
+        <input name="email" placeholder="Email" />
+        <button>Agregar</button>
+      </form>
       <ul>
-        {matches.map((user) => (
+        {users.map((user) => (
           <li key={user.id}>
             <div>
               <strong>{user.name}</strong>

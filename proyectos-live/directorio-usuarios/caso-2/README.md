@@ -1,13 +1,13 @@
 # Ejercicios de entrevista
 
 ## Nivel 1
-- [ ] Al agregar un usuario se recarga la página y no se agrega nada
+- [ ] Al agregar o borrar un usuario, la petición se hace pero la lista no se actualiza.
 
 ## Nivel 2
-- [ ] Validar el formulario: el nombre y el email son requeridos y el email debe tener un formato válido
+- [ ] Agregar estados de carga e intermedios en donde sea relevante.
 
 ## Nivel 3
-- [ ] Permitir ordenar la lista por nombre (A-Z / Z-A)
+- [ ] Al tipear rápido en el buscador, a veces quedan visibles los resultados de una búsqueda vieja.
 
 ## Extra
-- [ ] Persistir la lista en localStorage y recuperarla al recargar la página
+- [ ] Agregar caching en memoria para la búsqueda.

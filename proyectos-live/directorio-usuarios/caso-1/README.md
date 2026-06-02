@@ -1,13 +1,13 @@
 # Ejercicios de entrevista
 
 ## Nivel 1
-- [ ] El buscador no filtra correctamente los usuarios
+- [ ] Al agregar un usuario se recarga la página y no se agrega nada
 
 ## Nivel 2
-- [ ] Agregar un filtro por estado (activo / inactivo / todos)
+- [ ] Validar el formulario: el nombre y el email son requeridos y el email debe tener un formato válido
 
 ## Nivel 3
-- [ ] Mostrar un contador "X de Y usuarios" según los filtros aplicados
+- [ ] Permitir ordenar la lista por nombre (A-Z / Z-A)
 
 ## Extra
-- [ ] Mostrar un mensaje "Sin resultados" cuando la búsqueda no encuentra coincidencias
+- [ ] Persistir la lista en localStorage y recuperarla al recargar la página

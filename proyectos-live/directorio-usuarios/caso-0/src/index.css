@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,40 +13,69 @@ body,
 }
 
 body {
-  background-color: #f4f5f7;
-  color: #1f2933;
+  background-color: #f1f5f9;
+  color: #0f172a;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
 }
 
 main {
   max-width: 640px;
   margin: 0 auto;
-  padding: 32px 16px;
+  padding: 40px 16px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 20px;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
 input,
 select,
 button {
-  font-size: 16px;
-  padding: 8px 12px;
-  border: 1px solid #cbd2d9;
-  border-radius: 6px;
+  font: inherit;
+  font-size: 15px;
+  padding: 10px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
   background-color: white;
+  color: inherit;
+}
+
+input::placeholder {
+  color: #9ca3af;
+}
+
+input:focus,
+select:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 1px;
+  border-color: #2563eb;
 }
 
 button {
   cursor: pointer;
+  font-weight: 600;
   background-color: #2563eb;
   color: white;
   border-color: #2563eb;
+  white-space: nowrap;
+  transition: background-color 0.15s ease;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 form {
@@ -53,46 +84,85 @@ form {
   flex-wrap: wrap;
 }
 
+form input {
+  flex: 1;
+  min-width: 160px;
+}
+
 ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 
 li {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 12px 16px;
+  gap: 12px;
+  padding: 14px 18px;
   background-color: white;
-  border: 1px solid #e4e7eb;
-  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
 }
 
 li > div {
   display: flex;
   flex-direction: column;
+  margin-right: auto;
+  min-width: 0;
+}
+
+li > div > strong {
+  font-weight: 600;
 }
 
 li > div > span {
-  color: #7b8794;
+  color: #64748b;
   font-size: 14px;
 }
 
 .badge {
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
-  padding: 4px 8px;
+  letter-spacing: 0.03em;
+  padding: 4px 10px;
   border-radius: 999px;
   color: white;
 }
 
 .badge.active {
-  background-color: #2e7d32;
+  background-color: #16a34a;
 }
 
 .badge.inactive {
-  background-color: #9aa5b1;
+  background-color: #94a3b8;
+}
+
+.toggle {
+  min-width: 116px;
+  text-align: center;
+  border-radius: 999px;
+}
+
+.toggle.active {
+  background-color: #16a34a;
+  border-color: #16a34a;
+}
+
+.toggle.active:hover {
+  background-color: #15803d;
+  border-color: #15803d;
+}
+
+.toggle.inactive {
+  background-color: #94a3b8;
+  border-color: #94a3b8;
+}
+
+.toggle.inactive:hover {
+  background-color: #64748b;
+  border-color: #64748b;
 }
