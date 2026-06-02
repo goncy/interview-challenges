@@ -6,6 +6,7 @@ Cada proyecto incluye un `README.md` explicativo acerca de como usarlo, incluyen
 Mucha suerte en el camino!
 
 ## Índice
+* [Directorio de usuarios](./directorio-usuarios)
 * [Búsqueda de productos](./buscador-de-lista) - [STREAM](https://www.youtube.com/watch?v=SG5FFwLDuSQ)
 * [Lista de supermercado](./lista-supermercado) - [STREAM](https://www.youtube.com/watch?v=ocwsPB1ysOQ)
 * [Wordle](./wordle) - [STREAM](https://www.youtube.com/watch?v=xsZZc9PRqFM)
