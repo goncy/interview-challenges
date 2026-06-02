@@ -11,3 +11,4 @@
 
 ## Extra
 - [ ] Agregar caching en memoria para la búsqueda.
+- [ ] Al agregar o borrar un usuario hay una demora hasta que la lista refleja el cambio; mostralo al instante.

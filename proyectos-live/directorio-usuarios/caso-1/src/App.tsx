@@ -12,8 +12,9 @@ function App() {
 
   function handleSubmit(event: React.SubmitEvent<HTMLFormElement>) {
     const form = event.currentTarget;
-    const name = (form.elements.namedItem("name") as HTMLInputElement).value;
-    const email = (form.elements.namedItem("email") as HTMLInputElement).value;
+    const formData = new FormData(form);
+    const name = formData.get("name") as string;
+    const email = formData.get("email") as string;
 
     setUsers((users) =>
       users.concat({id: Date.now(), name, email, role: "viewer", active: true}),

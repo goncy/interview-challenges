@@ -11,12 +11,13 @@ function App() {
     api.search(query).then(setUsers);
   }, [query]);
 
-  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+  function handleSubmit(event: React.SubmitEvent<HTMLFormElement>) {
     event.preventDefault();
 
     const form = event.currentTarget;
-    const name = (form.elements.namedItem("name") as HTMLInputElement).value;
-    const email = (form.elements.namedItem("email") as HTMLInputElement).value;
+    const formData = new FormData(form);
+    const name = formData.get("name") as string;
+    const email = formData.get("email") as string;
 
     api.add({name, email});
 
