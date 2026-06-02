@@ -6,12 +6,12 @@ import {User} from "./types";
 function App() {
   const [users, setUsers] = useState<User[]>([]);
   const [query, setQuery] = useState("");
+  const matches = users.filter((user) => user.name.includes(query));
 
   useEffect(() => {
     api.list().then(setUsers);
   }, []);
 
-  const matches = users.filter((user) => user.name.includes(query));
 
   return (
     <main>
