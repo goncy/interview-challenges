@@ -1,14 +1,11 @@
-# Ejercicios de entrevista
-
-## Nivel 1
+## Tarea 1
 - [ ] Al agregar o borrar un usuario, la petición se hace pero la lista no se actualiza.
 
-## Nivel 2
+## Tarea 2
 - [ ] Agregar estados de carga e intermedios en donde sea relevante.
 
-## Nivel 3
+## Tarea 3
 - [ ] Al tipear rápido en el buscador, a veces quedan visibles los resultados de una búsqueda vieja.
 
 ## Extra
 - [ ] Agregar caching en memoria para la búsqueda.
-- [ ] Al agregar o borrar un usuario hay una demora hasta que la lista refleja el cambio; mostralo al instante.

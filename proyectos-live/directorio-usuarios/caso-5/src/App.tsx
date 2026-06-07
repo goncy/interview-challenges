@@ -5,23 +5,16 @@ import {User} from "./types";
 
 function App() {
   const [users, setUsers] = useState<User[]>([]);
-  const [query, setQuery] = useState("");
-  const matches = users.filter((user) => user.name.includes(query));
 
   useEffect(() => {
-    api.list();
+    api.list({start: 0, count: 8}).then((result) => setUsers(result.items));
   }, []);
 
   return (
     <main>
       <h1>Directorio de usuarios</h1>
-      <input
-        placeholder="Buscar por nombre"
-        value={query}
-        onChange={(event) => setQuery(event.target.value)}
-      />
       <ul>
-        {matches.map((user) => (
+        {users.map((user) => (
           <li key={user.id}>
             <div>
               <strong>{user.name}</strong>
@@ -30,6 +23,7 @@ function App() {
           </li>
         ))}
       </ul>
+      <button>Cargar más</button>
     </main>
   );
 }

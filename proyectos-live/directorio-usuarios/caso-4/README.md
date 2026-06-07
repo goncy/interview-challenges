@@ -1,0 +1,11 @@
+## Tarea 1
+- [ ] El botón de borrar no funciona.
+
+## Tarea 2
+- [ ] Permitir seleccionar varios usuarios y borrarlos todos a la vez.
+
+## Tarea 3
+- [ ] Agregar un botón de ↑ y ↓ al lado del borrar que permita reordenar la lista.
+
+## Extra
+- [ ] Usa métodos mutables para la manipulación de la lista.

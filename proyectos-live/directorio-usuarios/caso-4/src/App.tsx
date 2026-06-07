@@ -10,34 +10,27 @@ function App() {
     api.list().then(setUsers);
   }, []);
 
-  function handleSubmit(event: React.SubmitEvent<HTMLFormElement>) {
-    const form = event.currentTarget;
-    const formData = new FormData(form);
-    const name = formData.get("name") as string;
-    const email = formData.get("email") as string;
-
-    setUsers((users) =>
-      users.concat({id: Date.now(), name, email}),
-    );
-
-    form.reset();
+  function handleRemove(id: number) {
+    api.remove(id);
   }
 
   return (
     <main>
       <h1>Directorio de usuarios</h1>
-      <form onSubmit={handleSubmit}>
-        <input name="name" placeholder="Nombre" />
-        <input name="email" placeholder="Email" />
-        <button>Agregar</button>
-      </form>
+      <div className="toolbar">
+        <span className="muted">{0} seleccionados</span>
+      </div>
       <ul>
         {users.map((user) => (
           <li key={user.id}>
+            <input type="checkbox" />
             <div>
               <strong>{user.name}</strong>
               <span>{user.email}</span>
             </div>
+            <button className="remove" onClick={() => handleRemove(user.id)}>
+              Borrar
+            </button>
           </li>
         ))}
       </ul>
