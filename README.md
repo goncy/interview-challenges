@@ -9,7 +9,9 @@ En este repositorio se iran subiendo algunos de los challenges que resolvemos en
     * [Sesión 4](./ejercicios-algoritmos/sesion-4/) - [STREAM](https://youtu.be/LW681EfHZFc)
     * [Sesión 5](./ejercicios-algoritmos/sesion-5/) - [STREAM](https://youtu.be/dnQfXgGR06o)
     * [Sesión 6](./ejercicios-algoritmos/sesion-6/) - [STREAM](https://www.youtube.com/watch?v=uQp9wZiZb9I)
+    * [Sesión 7](./ejercicios-algoritmos/sesion-7/)
 * [Proyectos live](./proyectos-live): Similares a los que toman en entrevistas técnicas para posiciones de front-end, donde hay que resolver errors o implementar nuevas funcionalidades.
+    * [Directorio de usuarios](./proyectos-live/directorio-usuarios)
     * [Búsqueda de productos](./proyectos-live/buscador-de-lista) - [STREAM](https://www.youtube.com/watch?v=SG5FFwLDuSQ)
     * [Lista de supermercado](./proyectos-live/lista-supermercado) - [STREAM](https://www.youtube.com/watch?v=ocwsPB1ysOQ)
     * [Wordle](./proyectos-live/wordle) - [STREAM](https://www.youtube.com/watch?v=xsZZc9PRqFM)

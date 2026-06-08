@@ -1,6 +1,6 @@
 # Ejercicio de entrevista, proyectos-live/wordle
 
-Podemos encontrar tres carpetas [caso-0](./caso-0), [caso-1](./caso-1) y [caso-2](./caso-2) que contienen diferentes desafíos para una misma aplicación, un buscador de productos.
+Podemos encontrar tres carpetas [caso-0](./caso-0), [caso-1](./caso-1) y [caso-2](./caso-2) que contienen diferentes desafíos para una misma aplicación, un juego de Wordle.
 
 Cada caso se vuelve un poco más difícil.
 
