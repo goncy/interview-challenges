@@ -7,7 +7,7 @@
 - [ ] Mostrar la cantidad total de usuarios en el encabezado
 
 ## Tarea 3
-- [ ] Mostrar un contador "X de Y usuarios" según los filtros aplicados
+- [ ] Mostrar un contador "X resultados de Y usuarios" según los filtros aplicados
 
 ## Extra
 - [ ] Mostrar un mensaje "Sin resultados" cuando la búsqueda no encuentra coincidencias
