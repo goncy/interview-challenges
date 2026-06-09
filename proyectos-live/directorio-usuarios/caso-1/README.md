@@ -1,5 +1,4 @@
 ## Tarea 1
-- [ ] No puedo agregar un usuario.
 - [ ] La página se recarga al agregar un usuario.
 - [ ] El formulario no se limpia después de agregar el usuario.
 

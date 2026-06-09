@@ -1,5 +1,5 @@
 ## Tarea 1
-- [ ] Al agregar o borrar un usuario, la petición se hace pero la lista no se actualiza.
+- [ ] Agregar o borrar un usuario no funciona.
 
 ## Tarea 2
 - [ ] Agregar estados de carga e intermedios en donde sea relevante.

@@ -27,7 +27,7 @@ function App() {
       <form onSubmit={handleSubmit}>
         <input name="name" placeholder="Nombre" />
         <input name="email" placeholder="Email" />
-        <button type="button">Agregar</button>
+        <button>Agregar</button>
       </form>
       <ul>
         {users.map((user) => (
