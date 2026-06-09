@@ -19,8 +19,6 @@ function App() {
     setUsers((users) =>
       users.concat({id: Date.now(), name, email}),
     );
-
-    form.reset();
   }
 
   return (
@@ -29,7 +27,7 @@ function App() {
       <form onSubmit={handleSubmit}>
         <input name="name" placeholder="Nombre" />
         <input name="email" placeholder="Email" />
-        <button>Agregar</button>
+        <button type="button">Agregar</button>
       </form>
       <ul>
         {users.map((user) => (
