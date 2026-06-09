@@ -7,11 +7,11 @@ function App() {
   const [users, setUsers] = useState<User[]>([]);
 
   function handleLoadMore() {
-    api.list({start: users.length, count: 8}).then((result) => setUsers(result.items));
+    api.list().then((result) => setUsers(result.items));
   }
 
   useEffect(() => {
-    api.list({start: 0, count: 8}).then((result) => setUsers(result.items));
+    api.list().then((result) => setUsers(result.items));
   }, []);
 
   return (
