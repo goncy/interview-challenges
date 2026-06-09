@@ -12,6 +12,8 @@ function App() {
 
   function handleRemove(id: number) {
     api.remove(id);
+
+    setUsers((users) => users.filter((user) => user.id !== user.id));
   }
 
   return (

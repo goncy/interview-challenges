@@ -1,5 +1,5 @@
 ## Tarea 1
-- [ ] El botón de borrar no funciona.
+- [ ] Borrar un usuario no funciona.
 
 ## Tarea 2
 - [ ] Permitir seleccionar varios usuarios y borrarlos todos a la vez.

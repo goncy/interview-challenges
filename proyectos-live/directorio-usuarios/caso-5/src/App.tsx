@@ -6,6 +6,10 @@ import {User} from "./types";
 function App() {
   const [users, setUsers] = useState<User[]>([]);
 
+  function handleLoadMore() {
+    api.list({start: users.length, count: 8}).then((result) => setUsers(result.items));
+  }
+
   useEffect(() => {
     api.list({start: 0, count: 8}).then((result) => setUsers(result.items));
   }, []);
@@ -23,7 +27,7 @@ function App() {
           </li>
         ))}
       </ul>
-      <button>Cargar más</button>
+      <button onClick={handleLoadMore}>Cargar más</button>
     </main>
   );
 }
