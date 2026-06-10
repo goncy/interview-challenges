@@ -11,7 +11,7 @@ function App() {
   }
 
   useEffect(() => {
-    api.list().then((result) => setUsers(result.items));
+    handleLoadMore();
   }, []);
 
   return (
@@ -27,7 +27,7 @@ function App() {
           </li>
         ))}
       </ul>
-      <button onClick={handleLoadMore}>Cargar más</button>
+      <button>Cargar más</button>
     </main>
   );
 }
