@@ -8,4 +8,5 @@ sonAnagramas("elbow", "below"); // true
 sonAnagramas("study", "dusty"); // true
 sonAnagramas("hello", "world"); // false
 sonAnagramas("A gentleman", "Elegant man"); // true
+sonAnagramas("food", "doff"); // false
 ```
