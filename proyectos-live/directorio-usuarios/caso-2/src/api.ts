@@ -15,8 +15,6 @@ const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 const api = {
   search: async (query: string): Promise<User[]> => {
-    console.log("[api.search] start", {query});
-
     await wait(300 + Math.random() * 900);
 
     const q = query.trim().toLowerCase();
@@ -26,13 +24,9 @@ const api = {
         user.name.toLowerCase().includes(q) || user.email.toLowerCase().includes(q),
     );
 
-    console.log("[api.search] end", {query, count: result.length});
-
     return result;
   },
   add: async (data: {name: string; email: string}): Promise<User> => {
-    console.log("[api.add] start", data);
-
     await wait(800);
 
     const user: User = {
@@ -43,18 +37,12 @@ const api = {
 
     users = users.concat(user);
 
-    console.log("[api.add] end", user);
-
     return user;
   },
   remove: async (id: number): Promise<void> => {
-    console.log("[api.remove] start", {id});
-
     await wait(800);
 
     users = users.filter((user) => user.id !== id);
-
-    console.log("[api.remove] end", {id});
   },
 };
 

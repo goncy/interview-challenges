@@ -37,7 +37,7 @@ function App() {
       <form ref={formRef}>
         <input name="name" placeholder="Nombre" />
         <input name="email" placeholder="Email" />
-        <button type="button" onClick={handleSubmit}>Agregar</button>
+        <button onClick={handleSubmit}>Agregar</button>
       </form>
       <ul>
         {users.map((user) => (
