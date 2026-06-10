@@ -8,7 +8,7 @@ const data = {
   edades: [INT],
 }
 const output = [
-  { id: [STRING], nombre: [STRING], edad: [INT] },
+  { id: [INT], nombre: [STRING], edad: [INT] },
   ...
 ]
 ```
