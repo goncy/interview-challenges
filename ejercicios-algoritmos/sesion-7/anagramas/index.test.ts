@@ -17,4 +17,7 @@ describe("sonAnagramas", () => {
   
   it("maneja strings vacíos", () =>
     expect(sonAnagramas("", "")).toBe(true));
+    
+  it("maneja letras repetidas", () =>
+    expect(sonAnagramas("food", "doff")).toBe(false));
 });
