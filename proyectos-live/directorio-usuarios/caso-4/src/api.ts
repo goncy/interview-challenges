@@ -13,17 +13,11 @@ const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 const api = {
   list: async (): Promise<User[]> => {
-    console.log("[api.list] start");
-
     await wait(600);
-
-    console.log("[api.list] end", {count: users.length});
 
     return users;
   },
   bulkSetActive: async (ids: number[], active: boolean): Promise<BulkResult> => {
-    console.log("[api.bulkSetActive] start", {ids, active});
-
     await wait(900);
 
     const succeeded: number[] = [];
@@ -40,18 +34,12 @@ const api = {
       succeeded.push(id);
     }
 
-    console.log("[api.bulkSetActive] end", {succeeded, failed});
-
     return {succeeded, failed};
   },
   remove: async (id: number): Promise<void> => {
-    console.log("[api.remove] start", {id});
-
     await wait(800);
 
     users = users.filter((user) => user.id !== id);
-
-    console.log("[api.remove] end", {id});
   },
 };
 
