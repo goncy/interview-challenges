@@ -2,11 +2,11 @@
 - [ ] Borrar un usuario no funciona.
 
 ## Tarea 2
+- [ ] Mostrar la cantidad de usuarios seleccionados en el encabezado.
 - [ ] Permitir seleccionar varios usuarios y borrarlos todos a la vez.
 
 ## Tarea 3
-- [ ] Agregar un botón de ↑ y ↓ al lado del borrar que permita reordenar la lista.
+- [ ] Agrega un checkbox que permita seleccionar / deseleccionar todos los usuarios.
 
 ## Extra
-- [ ] Agrega un checkbox que permita seleccionar / deseleccionar todos los usuarios.
-- [ ] Usa métodos mutables para la manipulación de la lista.
+- [ ] Permite que el checkbox pueda estar en estado indeterminado.
